@@ -455,6 +455,8 @@ aside {
 .inflation-theory {
   width: 60%;
   margin: auto;
+  height: 90vh;
+  position: relative;
 }
 
 .inflation-theory span {
@@ -464,18 +466,54 @@ aside {
   font-size: 20px;
 }
 
-.inflation-img {
-  width: 100%;
-  position: relative;
-  margin: 15px 0;
-}
-
 .inflation-theory p {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   color: rgb(117, 113, 113);
   font-size: 14px;
   line-height: 18px;
 }
+
+.inflation-figure {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(4, 25%);
+  grid-column-gap: 1%;
+  grid-row-gap: 1%;
+  width: 97%;
+  height: 70vh;
+}
+
+.grid-img {
+  width: 100%;
+}
+
+.grid-text p {
+  color: black;
+  font-size: 12px;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+
+.grid-text span {
+  font-size: 12px;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+
+.inflation-theory-bottom hr {
+  width: 15%;
+  position: absolute;
+  left: 0;
+  bottom: 95%;
+  margin-bottom: 20px;
+}
+
+.inflation-theory-bottom {
+  position: absolute;
+  color: black;
+  bottom: 4%;
+  left: 0;
+  font-size: 14px;
+}
+
 
 /* Styling the video */
 
