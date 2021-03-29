@@ -164,6 +164,13 @@ nav .container {
   align-items: center;
 }
 
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
 .left-nav-section {
   display: flex;
   width: 250px;
