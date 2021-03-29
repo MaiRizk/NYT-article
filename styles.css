@@ -236,10 +236,37 @@ header h1 {
 }
 
 .page-header hr {
-  border: 0.5px solid rgb(221, 215, 215);
+  border: 0.25px solid rgb(233, 233, 233);
   width: 40%
 
 
+}
+
+/* Styling the social-media-icons */
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.social-media-icons a {
+  background-color: #eee;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+.social-media-header{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 /* Styling the header figure */
@@ -289,29 +316,11 @@ header h1 {
 .figcaption-author time {
   font-size: 13px;
 }
-.social-media-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 30px 0;
-}
-
-.social-media-icons a {
-  background-color: #eee;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 25px;
-}
-
 
 /* styling the sign-up part */
 
 .sign-up hr {
-  border: 0.5px solid rgb(221, 215, 215);
+  border: 0.25px solid rgb(233, 233, 233);
 }
 
 .signup-content {
@@ -355,7 +364,7 @@ header h1 {
 }
 
 .article-hr {
-  border: 0.5px solid rgb(221, 215, 215);
+  border: 0.25px solid rgb(233, 233, 233);
   width: 100px;
 }
 
@@ -398,7 +407,7 @@ header h1 {
 }
 
 .editors-picks hr {
-  border: 0.5px solid rgb(236, 231, 231);
+  border: 0.25px solid rgb(233, 233, 233);
   width: 200px;
   margin: 0;
   margin: 10px 0;
