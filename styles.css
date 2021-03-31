@@ -984,6 +984,4 @@ footer {
   text-decoration: underline;
 }
 
-.footer-links:hover {
-  text-decoration: underline;
-}
+.footer-links:hover {text-decoration: underline;}
