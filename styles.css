@@ -905,6 +905,23 @@ footer {
   text-decoration: none;
 }
 
+/* Styling common font family to keep code DRY */
+
+.left-nav-section a,
+.signup-content span,
+.thanks-subscribe,
+.editors-picks,
+.grid-text p,
+.grid-text span,
+.first-header,
+.card-info,
+.more,
+.bottom-editors-picks,
+.column
+{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
 /* Sytling hover actions for the whole page */
 
 .left-nav-section a:hover {
@@ -966,43 +983,8 @@ footer {
 }
 
 .more-section-card a:hover,
-
 .bottom-editors-card a:hover,
-
 .most-pop-link a:hover
-
 {
-
   color: rgb(85, 83, 83);
-
-}
-
-/* Styling common font family to keep code DRY */
-
-.left-nav-section a,
-
-.signup-content span,
-
-.thanks-subscribe,
-
-.editors-picks,
-
-.grid-text p,
-
-.grid-text span,
-
-.first-header,
-
-.card-info,
-
-.more,
-
-.bottom-editors-picks,
-
-.column
-
-{
-
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-
 }
