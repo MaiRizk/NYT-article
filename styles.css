@@ -196,7 +196,6 @@ nav .container {
 .left-nav-section a {
   text-decoration: none;
   color: black;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 800;
   font-size: 15px;
 }
@@ -339,7 +338,6 @@ header h1 {
 
 .signup-content span {
   font-weight: bold;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 14px;
   color: black;
 }
@@ -371,7 +369,6 @@ header h1 {
   flex-direction: column;
   align-items: center;
   margin: 20px 0;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 15px;
 }
 
@@ -395,7 +392,6 @@ header h1 {
 /* Styling the editors' picks */
 
 .editors-picks {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   position: absolute;
   width: 15%;
 }
@@ -488,12 +484,10 @@ aside {
 .grid-text p {
   color: black;
   font-size: 12px;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .grid-text span {
   font-size: 12px;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .inflation-theory-bottom hr {
@@ -612,7 +606,6 @@ iframe {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .first-header h2 {
@@ -689,7 +682,6 @@ iframe {
   display: flex;
   flex-direction: column;
   height: 90%;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .card-img {
@@ -725,7 +717,6 @@ iframe {
 /* Styling the more section */
 
 .more {
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
   margin-bottom: 20px;
   width: 75%;
 }
@@ -775,7 +766,6 @@ iframe {
 .bottom-editors-picks {
   width: 75%;
   padding-right: 35px;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .bottom-editors-header {
@@ -857,7 +847,6 @@ iframe {
 
 .column {
   width: calc(100% / 6);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 12px;
 }
 
@@ -960,24 +949,12 @@ footer {
   box-shadow: 0 2px 5px 2px #c9c8c8;
 }
 
-.most-pop-link a:hover {
-  color: rgb(85, 83, 83);
-}
-
 .more-a:hover {
   text-decoration: underline;
 }
 
-.more-section-card a:hover {
-  color: rgb(85, 83, 83);
-}
-
 .bottom-editors-header:hover {
   text-decoration: underline;
-}
-
-.bottom-editors-card a:hover {
-  color: rgb(85, 83, 83);
 }
 
 .column a:hover {
@@ -986,4 +963,46 @@ footer {
 
 .footer-links:hover {
   text-decoration: underline;
+}
+
+.more-section-card a:hover,
+
+.bottom-editors-card a:hover,
+
+.most-pop-link a:hover
+
+{
+
+  color: rgb(85, 83, 83);
+
+}
+
+/* Styling common font family to keep code DRY */
+
+.left-nav-section a,
+
+.signup-content span,
+
+.thanks-subscribe,
+
+.editors-picks,
+
+.grid-text p,
+
+.grid-text span,
+
+.first-header,
+
+.card-info,
+
+.more,
+
+.bottom-editors-picks,
+
+.column
+
+{
+
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+
 }
