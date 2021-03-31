@@ -4,7 +4,7 @@
 
 > The project shows an article from New York Times about space.
 
-![screenshot](https://github.com/MaiRizk/NYT-article/blob/homepage-branch/Screenshot%20from%202021-03-31%2000-01-23.png)
+![screenshot](https://raw.githubusercontent.com/MaiRizk/NYT-article/homepage-branch/Screenshots/Screenshot%20from%202021-03-31%2000-01-23.png)
 
 This project is mainly designed to practice semantic HTML and positioning and floating items.
 
