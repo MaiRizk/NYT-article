@@ -237,9 +237,7 @@ header h1 {
 
 .page-header hr {
   border: 0.25px solid rgb(233, 233, 233);
-  width: 40%
-
-
+  width: 40%;
 }
 
 /* Styling the social-media-icons */
@@ -262,7 +260,7 @@ header h1 {
   margin-right: 25px;
 }
 
-.social-media-header{
+.social-media-header {
   display: flex;
   justify-content: flex-start;
   padding-left: 30%;
@@ -490,12 +488,12 @@ aside {
 .grid-text p {
   color: black;
   font-size: 12px;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .grid-text span {
   font-size: 12px;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .inflation-theory-bottom hr {
@@ -513,7 +511,6 @@ aside {
   left: 0;
   font-size: 14px;
 }
-
 
 /* Styling the video */
 
@@ -615,8 +612,7 @@ iframe {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
-
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .first-header h2 {
@@ -635,7 +631,6 @@ iframe {
   float: right;
   margin-left: 35px;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-
 }
 
 .most-pop h2 {
@@ -679,13 +674,6 @@ iframe {
 .card-btn {
   width: 35px;
   height: 35px;
-}
-
-.card-btn div {
-  font-size: 24px;
-}
-
-.card-btn {
   border-radius: 50%;
   position: absolute;
   right: 5%;
@@ -693,13 +681,17 @@ iframe {
   background-color: white;
 }
 
+.card-btn div {
+  font-size: 24px;
+}
+
 .card-info {
   display: flex;
   flex-direction: column;
   height: 90%;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
-
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
+
 .card-img {
   width: 35%;
   height: 35%;
@@ -733,7 +725,7 @@ iframe {
 /* Styling the more section */
 
 .more {
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   margin-bottom: 20px;
   width: 75%;
 }
@@ -783,7 +775,7 @@ iframe {
 .bottom-editors-picks {
   width: 75%;
   padding-right: 35px;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .bottom-editors-header {
@@ -836,7 +828,6 @@ iframe {
 /* Styling the bottom links */
 
 .article-bottom {
-
   border-top: 5px double rgb(226, 222, 222);
   width: 80%;
   margin: auto;
@@ -857,7 +848,7 @@ iframe {
 .bottom-links {
   display: flex;
   width: 100%;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .home-page {
@@ -868,13 +859,6 @@ iframe {
   width: calc(100% / 6);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 12px;
-}
-
-footer {
-  width: 80%;
-  margin: auto;
-  padding-top: 15px;
-  padding-bottom: 20px;
 }
 
 .column h4 {
@@ -912,7 +896,7 @@ footer {
 
 .ssl-1 {
   margin: 10px 0;
-  border-bottom:1px solid rgb(214, 208, 208);
+  border-bottom: 1px solid rgb(214, 208, 208);
 }
 
 /* Styling the footer */
@@ -922,9 +906,12 @@ footer {
   font-size: 12px;
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
-footer a {
+.footer-links {
   color: rgb(99, 97, 97);
   text-decoration: none;
 }
@@ -966,7 +953,7 @@ footer a {
 }
 
 .card a:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .card:hover {
@@ -997,6 +984,6 @@ footer a {
   text-decoration: underline;
 }
 
-footer a:hover {
+.footer-links:hover {
   text-decoration: underline;
 }
