@@ -681,7 +681,7 @@ iframe {
   background-color: white;
 }
 
-.card-btn div {
+.card-btn span {
   font-size: 24px;
 }
 
@@ -987,3 +987,4 @@ footer {
 .footer-links:hover {
   text-decoration: underline;
 }
+\n
